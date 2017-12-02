@@ -1,0 +1,2 @@
+# scylla-bot
+Simple bot
