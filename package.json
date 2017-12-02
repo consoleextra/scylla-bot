@@ -1,0 +1,27 @@
+{
+  "name": "kys",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "btc": "0.0.4",
+    "cli-spinners": "^1.0.0",
+    "discord.js": "^11.1.0",
+    "figlet": "^1.2.0",
+    "knock-knock-jokes": "^1.7.0",
+    "lmgtfy": "^1.0.0",
+    "nwitch-bitcoin-price": "^1.0.3",
+    "opusscript": "0.0.4",
+    "pornhub": "0.0.5",
+    "random-puppy": "^1.1.0",
+    "rick-and-morty": "^1.0.1",
+    "urban": "^0.3.1",
+    "vaporwave": "^1.0.4",
+    "ytdl-core": "^0.18.1"
+  }
+}
