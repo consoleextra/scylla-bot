@@ -175,6 +175,7 @@ var embedhehe = new Discord.RichEmbed()
 .addField("Scylla Creator", "eXTRA#4087")
 .addField("Scylla","A fun bot based on Discord.js")
 .setFooter("A fun bot created by eXTRA#4087")
+.setColor('RANDOM');
 message.channel.sendEmbed(embedhehe)
 break;
 
