@@ -83,7 +83,7 @@ bot.on("message", message => {
   let params = message.content.split(" ");
   params.shift();
 
-	if (message.content("htiler")) {
+	if (message.content.includes("hitler")) {
 message.react(flag_de);
 	}
 
