@@ -84,7 +84,7 @@ bot.on("message", message => {
   params.shift();
 
 	if (message.content.includes("hitler")) {
-message.react(flag_de);
+message.react("🇩🇪");
 	}
 
 
