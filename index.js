@@ -83,6 +83,9 @@ bot.on("message", message => {
   let params = message.content.split(" ");
   params.shift();
 
+	if (message.content("htiler")) {
+message.react(:flag_de:);
+	}
 
 
 
@@ -141,14 +144,9 @@ if (!message.guild.voiceConnection) message.member.voiceChannel.join().then(func
     break;
 
     
-case "trolldm":
 
 
-break;
 
-    case "urban":
-var urban = require('urban')(args.join(" "));
-    break;
 
 case "lmgtfy":
 let HELLOArgs = args.splice(0, 1)
@@ -157,19 +155,10 @@ message.channel.send(string)
 break;
 
 
-case "porn":
-let HELOArgs = args.splice(0, 1)
- var ph = ph.details(args.join(" "), function(err, details) {
-  message.channel.send(ph)
-});
-break;
 
 
 
-    case "say":
-    let Args = args.splice(0, 1)
-    message.channel.send(args.join(" "));
-    break;
+
 
 
 case "help":
