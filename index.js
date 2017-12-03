@@ -3,7 +3,6 @@ const YTDL = require("ytdl-core")
 const cliSpinners = require('cli-spinners');
 const PREFIX = ";";
 const bot =  new Discord.Client();
-const settings = require("./settings.json");
 const randomPuppy = require('random-puppy');
 const vaporwave = require('vaporwave');
 const rickAndMorty = require("rick-and-morty");
